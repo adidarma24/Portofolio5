@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Produk</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar Produk</h1>
+        <label for="filter-category">Filter Kategori:</label>
+        <select id="filter-category">
+            <option value="All">Semua</option>
+            <option value="Elektronik">Elektronik</option>
+            <option value="Aksesoris">Aksesoris</option>
+        </select>
+        <div id="product-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
